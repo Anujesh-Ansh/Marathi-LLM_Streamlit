@@ -43,7 +43,7 @@ def generate_response_gemini(prompt, task_type="summarization"):
 # User Authentication (Simple Simulation for Demo)
 def authenticate(username, password):
     # Simple demo credentials (replace with secure database look-up for real app)
-    demo_users = {"testuser": "password123", "anujesh": "admin"}
+    demo_users = {"testuser": "password123", "anujesh": "admin", "aarohi": "admin", "mokshada": "admin", "sakshi": "love"}
     return demo_users.get(username) == password
 
 # Set up login state
